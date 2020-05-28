@@ -1,4 +1,4 @@
-const models = require('../models')
+import models from '../models'
 
 const getAllProducts = async (request, response) => {
   const products = await models.Products.findAll({
